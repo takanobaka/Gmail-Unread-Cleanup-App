@@ -1,0 +1,31 @@
+
+ 156369dae9b30a93 has been marked as read.
+ 156344f819d0db4c has been marked as read.
+ 1563175a94934c11 has been marked as read.
+ 1562fd3c3fc8b2ff has been marked as read.
+ 1562fd379d86e3bc has been marked as read.
+ 1562d6fc9a469fa2 has been marked as read.
+ 1562c3026fbccbeb has been marked as read.
+ 1562c2fbc59c4080 has been marked as read.
+ 1562baab8a06872e has been marked as read.
+ 15628f657281c1b9 has been marked as read.
+ 15627854bfe2cf62 has been marked as read.
+ 15627850e7e3790b has been marked as read.
+ 15625e6b9fb255e9 has been marked as read.
+ 156245340499e2bc has been marked as read.
+ 15621e1eaec4b7da has been marked as read.
+ 15621564f1c09568 has been marked as read.
+Found 100 messages
+ 1561c688a7de1293 has been marked as read.
+Traceback (most recent call last):
+  File "c:\Users\Richard\Documents\DevProjects\Gmail Unread Cleanup App\unread_messages.py", line 83, in <module>
+    gmail_unread_emails()
+  File "c:\Users\Richard\Documents\DevProjects\Gmail Unread Cleanup App\unread_messages.py", line 66, in gmail_unread_emails
+    .execute()
+     ^^^^^^^^^
+  File "C:\Users\Richard\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Richard\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\googleapiclient\http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 400 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/1561c4b75535c62e/modify?alt=json returned "Precondition check failed.". Details: "[{'message': 'Precondition check failed.', 'domain': 'global', 'reason': 'failedPrecondition'}]">
