@@ -85,11 +85,11 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-When using the gmail app on my phone, I found it annoying that my 10 year old gmail accounts that I had left unattended showed 5000+ unread notifications, which were getting in the way of my user experience. I wanted to be able to see the red notification icon on the app to show how many unread emails I had for the important emails, not the 3 random emails I created to be expendable and vulnerable to annoying spam. The difference between having no red icon to a red "1" icon, versus having a red "5489" icon become a red "5490" makes a world of a difference.
+When using the gmail app on my phone, I was annoyed that my 10 year old unattended gmail accounts showed 5000+ unread notifications, which were getting in the way of my user experience. I wanted to be able to see the red notification icon on the app to show how many unread emails I had for the important emails, not the 3 random emails I created to be expendable and vulnerable to annoying spam. The difference between having no red icon to a red "1" icon, versus having a red "5489" icon become a red "5490" makes a world of a difference.
 
-The existing solution was to just mark all emails as read, but gmail UI only lets you select 100 at a time, and every cycle involves multiple mouse clicks and my concentration. 
+The existing solution was to just mark all emails as read, but gmail UI only lets you select 100 at a time, and every cycle involves multiple mouse clicks and my concentration.
 
-Thus, I made this utility to run and connect to your gmail account, so that you can mark all the unread emails with a click of a button. Time to sit back and wait for the utility to sift through my 5K+ emails.
+Thus, I made this utility to run and connect to your gmail account, allowing the user to mark all the unread emails with a click of a button.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -98,16 +98,16 @@ Thus, I made this utility to run and connect to your gmail account, so that you 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
+* Gmail API
+* Python
+<!-- * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![JQuery][JQuery.com]][JQuery-url] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,40 +116,33 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Follow Google's quickstart guide to ensure you have the proper prerequisites:
+https://developers.google.com/gmail/api/quickstart/python
+
+* Python 3.10.7 or greater
+* The pip package management tool
+* A Google Cloud project.
+* A Google account with Gmail enabled.
+
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Clone the repo
+   ```sh
+   git clone https://github.com/takanobaka/Gmail-Unread-Cleanup-App.git
+   ```
+2. Get the credential that is generated from [Google Quickstart guide](https://developers.google.com/gmail/api/quickstart/python) steps above, and place in repo.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -161,6 +154,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
+<!--
 ## Roadmap
 
 - [x] Add Changelog
@@ -178,6 +172,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 <!-- CONTRIBUTING -->
+<!--
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -196,27 +191,29 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
+<!--
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+ -->
 
 <!-- CONTACT -->
+
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Taka Baka - [@your_twitter](https://twitter.com/your_username) - wongtakashi123@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+<!-- Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
@@ -227,10 +224,10 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [React Icons](https://react-icons.github.io/react-icons/search) -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ -->
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
