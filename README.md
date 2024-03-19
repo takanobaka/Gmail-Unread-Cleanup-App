@@ -93,10 +93,7 @@ The existing solution was to just mark all emails as read, but gmail UI only let
 
 Thus, I made this utility to run and connect to your gmail account, allowing the user to mark all the unread emails with a click of a button.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -114,7 +111,6 @@ Thus, I made this utility to run and connect to your gmail account, allowing the
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -129,7 +125,6 @@ https://developers.google.com/gmail/api/quickstart/python
 * The pip package management tool
 * A Google Cloud project.
 * A Google account with Gmail enabled.
-
 
 ### Installation
 
