@@ -137,8 +137,12 @@ https://developers.google.com/gmail/api/quickstart/python
    ```sh
    git clone https://github.com/takanobaka/Gmail-Unread-Cleanup-App.git
    ```
+
 2. Get the credential that is generated from [Google Quickstart guide](https://developers.google.com/gmail/api/quickstart/python) steps above, and place in repo.
 
+3. Make sure your Gmail account is listed as a test user. You can do this on [Google Cloud API](https://console.cloud.google.com/apis/), OAuth consent screen, Add Test Users.
+
+4. Run the unread_messages.py, ensuring `credentials.json` is in the same directory. You should be prompted to sign in with your Google email account. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,7 +210,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Taka Baka - [@your_twitter](https://twitter.com/your_username) - wongtakashi123@gmail.com
+Taka Baka - wongtakashi123@gmail.com
 
 <!-- Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name) -->
 
