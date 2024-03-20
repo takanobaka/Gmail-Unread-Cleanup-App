@@ -62,7 +62,7 @@ def gmail_create_draft_with_attachment():
     )
 
     # attachment
-    attachment_filename = "little-big-planet-what-da-hell.gif"
+    attachment_filename = "LittleBigPlanet.gif"
     # guessing the MIME type
     type_subtype, _ = mimetypes.guess_type(attachment_filename)
     maintype, subtype = type_subtype.split("/")

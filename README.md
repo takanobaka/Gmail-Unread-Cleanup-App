@@ -137,7 +137,7 @@ https://developers.google.com/gmail/api/quickstart/python
 
 3. Make sure your Gmail account is listed as a test user. You can do this on [Google Cloud API](https://console.cloud.google.com/apis/), OAuth consent screen, Add Test Users.
 
-4. Run the unread_messages.py, ensuring `credentials.json` is in the same directory. You should be prompted to sign in with your Google email account.
+4. Run the `UnreadEmailCleanup`, ensuring `credentials.json` is in the same directory. You should be prompted to sign in with your Google email account.
 
 5. Once you have connected and authorized Gmail, the utility should run and fetch all your unread emails, marking them as read till there are no more unread emails to fetch.
 
