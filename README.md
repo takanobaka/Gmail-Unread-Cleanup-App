@@ -87,9 +87,9 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-When using the gmail app on my phone, I was annoyed that my 10 year old unattended gmail accounts showed 5000+ unread notifications, which were getting in the way of my user experience. I wanted to be able to see the red notification icon on the app to show how many unread emails I had for the important emails, not the 3 random emails I created to be expendable and vulnerable to annoying spam. The difference between having no red icon to a red "1" icon, versus having a red "5489" icon become a red "5490" makes a world of a difference.
+When using the gmail app on my phone, I was annoyed that my 10 year old unattended gmail accounts showed 5000+ unread notifications, which were getting in the way of my user experience. I wanted to be able to see the red notification icon on the app to show how many unread emails I had for the important emails, not the 3 random emails I created to be expendable and vulnerable to annoying spam. There is a big difference in having no red icon to a red "1" icon, versus having a red "5489" icon become a red "5490".
 
-The existing solution was to just mark all emails as read, but gmail UI only lets you select 100 at a time, and every cycle involves multiple mouse clicks and my concentration.
+The existing solution was to just mark all emails as read, but gmail UI only lets you select 100 at a time, and every cycle involves multiple mouse clicks and a lot of time.
 
 Thus, I made this utility to run and connect to your gmail account, allowing the user to mark all the unread emails with a click of a button.
 
