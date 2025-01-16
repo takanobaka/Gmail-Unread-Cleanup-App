@@ -133,13 +133,15 @@ https://developers.google.com/gmail/api/quickstart/python
    git clone https://github.com/takanobaka/Gmail-Unread-Cleanup-App.git
    ```
 
-2. Get the credential that is generated from [Google Quickstart guide](https://developers.google.com/gmail/api/quickstart/python) steps above, and place in repo.
+2. Get the credential that is generated from [Google Quickstart guide](https://developers.google.com/gmail/api/quickstart/python) steps above, and place in repo as `credentials.json`.
 
 3. Make sure your Gmail account is listed as a test user. You can do this on [Google Cloud API](https://console.cloud.google.com/apis/), OAuth consent screen, Add Test Users.
 
-4. Run the `UnreadEmailCleanup`, ensuring `credentials.json` is in the same directory. You should be prompted to sign in with your Google email account.
+4. Run `UnreadEmailCleanup.py`, ensuring `credentials.json` is in the same directory. You should be prompted to sign in with your Google email account.
 
 5. Once you have connected and authorized Gmail, the utility should run and fetch all your unread emails, marking them as read till there are no more unread emails to fetch.
+
+6. If you want to run this with another gmail account, you will need to delete the `token.json` that is generated, which will prompt you to relogin to a gmail account upon rerun of python script.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
